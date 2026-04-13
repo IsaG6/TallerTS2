@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Series</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header class="encabezado">
+    <h1 class="titulo">Series</h1>
+</header>
+
+<div class="container mt-4">
+  
+    <div class="row">
+        <div class="col-md-8">
+          
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Channel</th>
+                        <th>Seasons</th>
+                    </tr>
+                </thead>
+                <tbody id="series-table"></tbody>
+            </table>
+           
+            <p id="average"></p>
+       
+        </div>
+
+        <div class="col-md-4">
+            <div id="series-card">
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="./dist/main.js"></script>
+
+</body>
+
+</html>

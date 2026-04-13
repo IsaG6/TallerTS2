@@ -1,0 +1,33 @@
+.encabezado {
+    background-color: #fbfbfb;
+    padding: 10px;
+    color: #4babc1;
+    text-shadow: 2px 2px 2px #3e97ac;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+.serie-link {
+    color: #22a1bd;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.serie-link:hover {
+    color: #22a1bd;
+    text-decoration: none;
+}
+
+.fila-serie:hover {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
